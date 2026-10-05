@@ -2,6 +2,7 @@
 
 This project demonstrates an end-to-end data warehousing and analytics solution built with SQL Server. It covers data ingestion, transformation, dimensional modeling, data quality validation, and analytical reporting using ERP and CRM source data.
 
+
 ## Data Architecture
 
 The warehouse follows the **Medallion Architecture**, with separate Bronze, Silver, and Gold layers:
