@@ -7,7 +7,7 @@ This project demonstrates an end-to-end data warehousing and analytics solution 
 
 The warehouse follows the **Medallion Architecture**, with separate Bronze, Silver, and Gold layers:
 
-See the [High Level Architecture diagram](docs/High%20Level%20Architecture.drawio) for the project architecture.
+See the [High Level Architecture diagram](docs/high level architecture.png) for the project architecture.
 
 1. **Bronze Layer**: Stores raw data loaded from the source CSV files.
 2. **Silver Layer**: Cleans, standardizes, and integrates data from the ERP and CRM systems.
