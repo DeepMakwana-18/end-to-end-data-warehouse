@@ -7,11 +7,33 @@ This project demonstrates an end-to-end data warehousing and analytics solution 
 
 The warehouse follows the **Medallion Architecture**, with separate Bronze, Silver, and Gold layers:
 
-See the [High Level Architecture diagram](docs/high level architecture.png) for the project architecture.
+[View or download the High Level Architecture diagram (Draw.io)](docs/High%20Level%20Architecture.drawio).
+
+[![High Level Architecture](docs/high%20level%20architecture.png)](docs/High%20Level%20Architecture.drawio)
 
 1. **Bronze Layer**: Stores raw data loaded from the source CSV files.
 2. **Silver Layer**: Cleans, standardizes, and integrates data from the ERP and CRM systems.
 3. **Gold Layer**: Provides business-ready dimensional models for reporting and analytics.
+
+## Project Diagrams
+
+### Data Flow
+
+[View or download the editable Data Flow diagram](docs/Data%20Flow.drawio).
+
+[![Data Flow](docs/data%20flow.png)](docs/Data%20Flow.drawio)
+
+### Data Integration
+
+[View or download the editable Data Integration diagram](docs/DATA%20INTEGRATION.drawio).
+
+[![Data Integration](docs/data%20integration.png)](docs/DATA%20INTEGRATION.drawio)
+
+### Data Model
+
+[View or download the editable Data Model diagram](docs/data%20model.drawio).
+
+[![Data Model](docs/data%20model.png)](docs/data%20model.drawio)
 
 ## Project Overview
 
@@ -49,7 +71,11 @@ Data Warehouse Project/
 │   ├── Data Flow.drawio
 │   ├── DATA INTEGRATION.drawio
 │   ├── data model.drawio
-│   └── High Level Architecture.drawio
+│   ├── High Level Architecture.drawio
+│   ├── data flow.png
+│   ├── data integration.png
+│   ├── data model.png
+│   └── high level architecture.png
 ├── scripts/                       # Database initialization and warehouse scripts
 │   ├── init_database.sql
 │   ├── bronze/
